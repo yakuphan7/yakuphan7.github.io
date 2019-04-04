@@ -11,15 +11,23 @@
 	<title>Genel &#8211; Yakuphan Gökgöz</title>
 	<atom:link href="http://localhost/yakuphanweb/category/genel/feed/" rel="self" type="application/rss+xml" />
 	<link>https://yakuphan7.github.io</link>
-	<description>Bir başka WordPress sitesi</description>
+	<description></description>
 	<lastBuildDate>
-	Thu, 04 Apr 2019 19:11:39 +0000	</lastBuildDate>
+	Thu, 04 Apr 2019 19:31:51 +0000	</lastBuildDate>
 	<language>tr</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.1.1</generator>
+
+<image>
+	<url>https://yakuphan7.github.io/wp-content/uploads/2019/04/cropped-DSC_0086-32x32.jpg</url>
+	<title>Genel &#8211; Yakuphan Gökgöz</title>
+	<link>https://yakuphan7.github.io</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>Merhaba dünya!</title>
 		<link>https://yakuphan7.github.io/2019/04/04/merhaba-dunya/</link>
