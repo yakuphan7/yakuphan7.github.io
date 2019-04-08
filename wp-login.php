@@ -9,6 +9,8 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>Giriş &lsaquo; Yakuphan Gökgöz &#8212; WordPress</title>
 	<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' id='jquery.bxslider-css'  href='https://yakuphan7.github.io/wp-content/plugins/testimonials-widget/includes/libraries/bxslider-4/dist/jquery.bxslider.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='Axl_Testimonials_Widget-css'  href='https://yakuphan7.github.io/wp-content/plugins/testimonials-widget/assets/css/testimonials-widget.css?ver=5.1.1' type='text/css' media='all' />
 <link rel='stylesheet' id='dashicons-css'  href='https://yakuphan7.github.io/wp-includes/css/dashicons.min.css?ver=5.1.1' type='text/css' media='all' />
 <link rel='stylesheet' id='buttons-css'  href='https://yakuphan7.github.io/wp-includes/css/buttons.min.css?ver=5.1.1' type='text/css' media='all' />
 <link rel='stylesheet' id='forms-css'  href='https://yakuphan7.github.io/wp-admin/css/forms.min.css?ver=5.1.1' type='text/css' media='all' />
