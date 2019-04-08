@@ -17,10 +17,10 @@
 	<meta name='robots' content='noindex,noarchive' />
 	<meta name='referrer' content='strict-origin-when-cross-origin' />
 		<meta name="viewport" content="width=device-width" />
-	<link rel="icon" href="https://yakuphan7.github.io/wp-content/uploads/2019/04/cropped-DSC_0086-32x32.jpg" sizes="32x32" />
-<link rel="icon" href="https://yakuphan7.github.io/wp-content/uploads/2019/04/cropped-DSC_0086-192x192.jpg" sizes="192x192" />
-<link rel="apple-touch-icon-precomposed" href="https://yakuphan7.github.io/wp-content/uploads/2019/04/cropped-DSC_0086-180x180.jpg" />
-<meta name="msapplication-TileImage" content="https://yakuphan7.github.io/wp-content/uploads/2019/04/cropped-DSC_0086-270x270.jpg" />
+	<link rel="icon" href="https://yakuphan7.github.io/wp-content/uploads/2019/04/site_icon4.png" sizes="32x32" />
+<link rel="icon" href="https://yakuphan7.github.io/wp-content/uploads/2019/04/site_icon4.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://yakuphan7.github.io/wp-content/uploads/2019/04/site_icon4.png" />
+<meta name="msapplication-TileImage" content="https://yakuphan7.github.io/wp-content/uploads/2019/04/site_icon4.png" />
 	</head>
 	<body class="login login-action-login wp-core-ui  locale-tr-tr">
 		<div id="login">
