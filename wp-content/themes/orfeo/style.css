@@ -40,6 +40,32 @@ div, p, a, span, li, body {
   font-family: inherit;
 }
 
+#rcorners1 {
+  border-radius: 25px;
+  background: #6BD098;
+  padding: 20px; 
+  width: 200px;
+  height: 100px;
+  
+}
+
+#rcorners2 {
+  border-radius: 25px;
+  background: #FBC658;
+  padding: 20px; 
+  width: 200px;
+  height: 100px;
+  margin-left: 20px;
+}
+
+#rcorners3 {
+  border-radius: 25px;
+  background: #E91E63;
+  padding: 20px; 
+  width: 200px;
+  height: 100px;
+  margin-left: 20px;
+}
 /*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
