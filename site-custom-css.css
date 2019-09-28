@@ -1,0 +1,171 @@
+.zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.changable1 {
+	
+	clear:both;
+	background: url('http://localhost:90/yakuphanbio/wp-content/uploads/2019/09/Ekran-Gc3b6rc3bcntc3bcsc3bc-106-360x240.png') center;
+	width: 70%;
+	height: 150px;
+	padding: 50px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 30px;
+	border-radius: 5%;
+		
+}
+
+.changable2 {
+	
+	clear:both;
+	background: url('http://localhost:90/yakuphanbio/wp-content/uploads/2019/09/Ekran-Gc3b6rc3bcntc3bcsc3bc-107-360x240.png') center;
+	width: 70%;
+	height: 150px;
+	padding: 50px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 30px;
+	border-radius: 5%;
+		
+}
+
+.changable3 {
+	
+	clear:both;
+	background: url('http://localhost:90/yakuphanbio/wp-content/uploads/2019/09/135-768x432-360x240.png') center;
+	width: 70%;
+	height: 150px;
+	padding: 50px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 30px;
+	border-radius: 5%;
+		
+}
+
+.changable4 {
+	
+	clear:both;
+	background: url('http://localhost:90/yakuphanbio/wp-content/uploads/2019/09/Ekran-G%C3%B6r%C3%BCnt%C3%BCs%C3%BC-31-360x240.png') center;
+	width: 70%;
+	height: 150px;
+	padding: 50px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 30px;
+	border-radius: 5%;
+		
+}
+
+iframe{
+	width: 320px;
+	height: 240px;
+}
+
+	.changable-div{
+		margin: auto; 
+		margin-bottom: 100px;
+		border: 2px solid green;
+		width: 320px;
+		height: 240px;
+}
+
+@media only screen and (min-device-width: 1000px) {
+
+	.changable1 {
+	
+	clear:both;
+	background: url('http://localhost:90/yakuphanbio/wp-content/uploads/2019/09/Ekran-Gc3b6rc3bcntc3bcsc3bc-106-1024x576.png') center;
+	width: 70%;
+	height: 150px;
+	padding: 50px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 30px;
+	border-radius: 5%;
+		
+}
+	
+	.changable2 {
+	
+	clear:both;
+	background: url('http://localhost:90/yakuphanbio/wp-content/uploads/2019/09/Ekran-Gc3b6rc3bcntc3bcsc3bc-107-768x432.png') center;
+	width: 70%;
+	height: 150px;
+	padding: 50px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 30px;
+	border-radius: 5%;
+		
+}
+
+	.changable3 {
+	
+	clear:both;
+	background: url('http://localhost:90/yakuphanbio/wp-content/uploads/2019/09/135-768x432-768x432.png') center;
+	width: 70%;
+	height: 150px;
+	padding: 50px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 30px;
+	border-radius: 5%;
+		
+}
+	
+	.changable4 {
+	
+	clear:both;
+	background: url('http://localhost:90/yakuphanbio/wp-content/uploads/2019/09/Ekran-G%C3%B6r%C3%BCnt%C3%BCs%C3%BC-31-768x368.png') center;
+	width: 70%;
+	height: 150px;
+	padding: 50px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 30px;
+	border-radius: 5%;
+		
+}
+	
+	iframe{
+	width: 640px;
+	height: 480px;
+}
+
+	.changable-div{
+		margin: auto; 
+		margin-bottom: 100px;
+		border: 2px solid green;
+		width: 640px;
+		height: 480px;
+		
+	}
+	
+}
