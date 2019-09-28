@@ -5,7 +5,7 @@ Theme URI:      https://themeisle.com/themes/hestia/
 Author:         ThemeIsle
 Author URI:     https://themeisle.com
 Description:    Hestia is a modern WordPress theme for professionals. It fits creative business, small businesses (restaurants, wedding planners, sport/medical shops), startups, corporate businesses, online agencies and firms, portfolios, ecommerce (WooCommerce), and freelancers. It has a multipurpose one-page design, widgetized footer, blog/news page and a clean look, is compatible with: Flat Parallax Slider, Photo Gallery, Travel Map and Elementor Page Builder . The theme is responsive, WPML, Retina ready, SEO friendly, and uses Material Kit for design.
-Version:        2.4.2
+Version:        2.5.3
 License:        GNU General Public License v2 or later
 License URI:    http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:    hestia
@@ -274,7 +274,7 @@ input[type="button"],
   font-weight: 400;
 }
 
-.btn:not(.btn-just-icon):not(.btn-fab) .fa {
+.btn:not(.btn-just-icon):not(.btn-fab) i {
   font-size: 18px;
 }
 .btn.btn-just-icon {
@@ -284,7 +284,7 @@ input[type="button"],
 .btn.btn-just-icon.btn-lg {
   font-size: 22px;
 }
-.btn .fa {
+.btn i {
   font-size: 17px;
 }
 
@@ -395,17 +395,17 @@ table > thead > tr > th {
   font-size: 14px;
 }
 
-.carousel .carousel-control .fa {
+.carousel .carousel-control i {
   font-size: 50px;
 }
 
 .card .footer .stats {
   line-height: 30px;
 }
-.card .footer .stats .fa {
+.card .footer .stats i {
   font-size: 18px;
 }
-.card .category .fa {
+.card .category i {
   line-height: 0;
 }
 
@@ -435,7 +435,7 @@ table > thead > tr > th {
 .navbar .navbar-nav > li > a {
   font-weight: 400;
 }
-.navbar .navbar-nav > li > a .fa {
+.navbar .navbar-nav > li > a i {
   font-size: 20px;
 }
 .navbar .dropdown-menu li > a {
@@ -444,7 +444,7 @@ table > thead > tr > th {
 .navbar .dropdown-menu li > a > i {
   font-size: 20px;
 }
-.navbar .dropdown-menu li > a .fa {
+.navbar .dropdown-menu li > a i {
   font-size: 20px;
 }
 .navbar .hestia-mm-heading > span {
@@ -947,14 +947,14 @@ aside .widget a {
   }
 
   .navbar .navbar-nav li > a > i,
-  .navbar .navbar-nav li > a .fa {
+  .navbar .navbar-nav li > a i {
     font-size: 22px;
   }
   .navbar .navbar-nav li .caret {
     font-size: 20px;
   }
   .navbar .navbar-nav li .dropdown > i,
-  .navbar .navbar-nav li .dropdown .fa {
+  .navbar .navbar-nav li .dropdown i {
     font-size: 20px;
   }
   .navbar .navbar-nav .dropdown .dropdown-menu li a {
@@ -1014,7 +1014,7 @@ h6.category {
 }
 
 .page-header .hestia-title {
-  line-height: 1.1;
+  line-height: 1.4;
 }
 
 .title-in-content {
@@ -1050,6 +1050,10 @@ h2.hestia-title {
 
 .description, .card-description, .footer-big {
   color: #999999;
+}
+
+.card-description.entry-content {
+  color: #3C4858;
 }
 
 .subscribe-line-image .subscribe-description {
@@ -1125,10 +1129,10 @@ h2.hestia-title {
 
 .tooltip {
   opacity: 0;
-  -webkit-transition: opacity,-webkit-transform 0.2s ease;
-  transition: opacity,-webkit-transform 0.2s ease;
-  transition: opacity,transform 0.2s ease;
-  transition: opacity,transform 0.2s ease,-webkit-transform 0.2s ease;
+  -webkit-transition: opacity, -webkit-transform 0.2s ease;
+  transition: opacity, -webkit-transform 0.2s ease;
+  transition: opacity, transform 0.2s ease;
+  transition: opacity, transform 0.2s ease, -webkit-transform 0.2s ease;
   -webkit-transform: translate3d(0, 5px, 0);
   -ms-transform: translate3d(0, 5px, 0);
   transform: translate3d(0, 5px, 0);
@@ -1579,7 +1583,7 @@ input#searchsubmit,
 .btn.btn-round {
   border-radius: 30px;
 }
-.btn:not(.btn-just-icon):not(.btn-fab) .fa {
+.btn:not(.btn-just-icon):not(.btn-fab) i {
   position: relative;
 }
 .btn.btn-just-icon {
@@ -1604,7 +1608,7 @@ input#searchsubmit,
   color: #3C4858;
 }
 
-.btn .fa {
+.btn i {
   position: relative;
   top: -1px;
   vertical-align: middle;
@@ -1810,27 +1814,27 @@ input#searchsubmit,
 .navbar .navbar-nav > li > a.btn.btn-github:focus,
 .navbar .navbar-nav > li > a.btn.btn-github:active {
   color: #fff;
-  background-color: #333;
+  background-color: #000;
 }
 
 .btn.btn-github,
 .navbar .navbar-nav > li > a.btn.btn-github {
-  -webkit-box-shadow: 0 2px 2px 0 rgba(51, 51, 51, 0.14), 0 3px 1px -2px rgba(51, 51, 51, 0.2), 0 1px 5px 0 rgba(51, 51, 51, 0.12);
-  -moz-box-shadow: 0 2px 2px 0 rgba(51, 51, 51, 0.14), 0 3px 1px -2px rgba(51, 51, 51, 0.2), 0 1px 5px 0 rgba(51, 51, 51, 0.12);
-  box-shadow: 0 2px 2px 0 rgba(51, 51, 51, 0.14), 0 3px 1px -2px rgba(51, 51, 51, 0.2), 0 1px 5px 0 rgba(51, 51, 51, 0.12);
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
 .btn.btn-github:hover, .btn.btn-github:focus, .btn.btn-github:active,
 .navbar .navbar-nav > li > a.btn.btn-github:hover,
 .navbar .navbar-nav > li > a.btn.btn-github:focus,
 .navbar .navbar-nav > li > a.btn.btn-github:active {
-  -webkit-box-shadow: 0 14px 26px -12px rgba(51, 51, 51, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(51, 51, 51, 0.2);
-  -moz-box-shadow: 0 14px 26px -12px rgba(51, 51, 51, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(51, 51, 51, 0.2);
-  box-shadow: 0 14px 26px -12px rgba(51, 51, 51, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(51, 51, 51, 0.2);
+  -webkit-box-shadow: 0 14px 26px -12px rgba(0, 0, 0, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 14px 26px -12px rgba(0, 0, 0, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 14px 26px -12px rgba(0, 0, 0, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
 .btn.btn-github.btn-simple,
 .navbar .navbar-nav > li > a.btn.btn-github.btn-simple {
-  color: #333;
+  color: #000;
   background-color: transparent;
 }
 
@@ -2351,7 +2355,8 @@ select .form-group.is-focused select.form-control[multiple] {
 .woocommerce-product-search:after {
   color: #fff;
   content: "\f002";
-  font-family: 'Fontawesome';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
   pointer-events: none;
   position: absolute;
   right: 15px;
@@ -2549,18 +2554,21 @@ body.admin-bar .navbar {
   margin: 0;
 }
 .navbar .navbar-nav > li > a {
+  text-transform: uppercase;
+}
+.navbar .navbar-nav > li a {
   padding-top: 15px;
   padding-bottom: 15px;
   border-radius: 3px;
   color: inherit;
-  text-transform: uppercase;
 }
-.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
+.navbar .navbar-nav > li a:hover, .navbar .navbar-nav > li a:focus {
   color: inherit;
   opacity: 1;
 }
-.navbar .navbar-nav > li > a .fa {
-  max-width: 20px;
+.navbar .navbar-nav > li a i {
+  min-width: 20px;
+  text-align: center;
   position: relative;
   top: 2px;
   margin-top: -4px;
@@ -2606,12 +2614,11 @@ body.admin-bar .navbar {
 .navbar .navbar-nav > li .dropdown-menu li > a > i {
   position: relative;
   top: 1px;
-  min-width: 30px;
   margin-right: 12px;
   opacity: 0.5;
   text-align: center;
 }
-.navbar .navbar-nav > li .dropdown-menu li > a .fa {
+.navbar .navbar-nav > li .dropdown-menu li > a i {
   position: relative;
   top: 1px;
   margin-top: -4px;
@@ -2724,7 +2731,7 @@ body.admin-bar .navbar {
     padding-right: 25px;
   }
 
-  .hestia-toggle-search {
+  .navbar .navbar-nav > li.hestia-search-in-menu a.hestia-toggle-search {
     display: none;
   }
 }
@@ -2739,8 +2746,10 @@ body.admin-bar .navbar {
 @media (min-width: 769px) {
   .navbar:not(.full-screen-menu) .hestia-toggle-search {
     display: block;
-    padding: 12.5px;
-    width: 38px;
+    width: 55px;
+  }
+  .navbar:not(.full-screen-menu) .hestia-toggle-search i {
+    font-size: 16px;
   }
   .navbar:not(.full-screen-menu) .hestia-search-in-menu {
     cursor: pointer;
@@ -2851,7 +2860,7 @@ body.admin-bar .navbar {
 .header-widgets-wrapper .widget.widget_nav_menu h5, .header-widgets-wrapper .widget.widget_categories h5, .header-widgets-wrapper .widget.widget_product_categories h5, .header-widgets-wrapper .widget.widget_search h5, .header-widgets-wrapper .widget.widget_product_search h5, .header-widgets-wrapper .widget.widget_meta h5 {
   display: none;
 }
-.header-widgets-wrapper .widget.widget_nav_menu input[type=submit], .header-widgets-wrapper .widget.widget_categories input[type=submit], .header-widgets-wrapper .widget.widget_product_categories input[type=submit], .header-widgets-wrapper .widget.widget_search input[type=submit], .header-widgets-wrapper .widget.widget_product_search input[type=submit], .header-widgets-wrapper .widget.widget_meta input[type=submit] {
+.header-widgets-wrapper .widget.widget_nav_menu *[type=submit], .header-widgets-wrapper .widget.widget_categories *[type=submit], .header-widgets-wrapper .widget.widget_product_categories *[type=submit], .header-widgets-wrapper .widget.widget_search *[type=submit], .header-widgets-wrapper .widget.widget_product_search *[type=submit], .header-widgets-wrapper .widget.widget_meta *[type=submit] {
   opacity: 0;
   left: -15px;
 }
@@ -2887,7 +2896,8 @@ body.admin-bar .navbar {
 .header-widgets-wrapper .widget.widget_shopping_cart:before {
   color: #333;
   content: "\f07a";
-  font-family: 'Fontawesome';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
   margin-right: 5px;
 }
 .header-widgets-wrapper .widget.widget_shopping_cart:hover .cart_list {
@@ -2976,7 +2986,7 @@ body.admin-bar .navbar {
 .header-widgets-wrapper ul li a:before {
   background-color: transparent;
   position: static;
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Free";
 }
 .header-widgets-wrapper ul li a:hover, .header-widgets-wrapper ul li a:focus {
   background-color: transparent;
@@ -3182,7 +3192,7 @@ body.admin-bar .navbar {
   width: 100%;
   height: auto;
 }
-.card .category .fa, .card-no-width .category .fa {
+.card .category i, .card-no-width .category i {
   position: relative;
   top: 6px;
 }
@@ -3215,7 +3225,7 @@ body.admin-bar .navbar {
 .card .footer .stats, .card-no-width .footer .stats {
   float: right;
 }
-.card .footer .stats .fa, .card-no-width .footer .stats .fa {
+.card .footer .stats i, .card-no-width .footer .stats i {
   position: relative;
   top: 4px;
 }
@@ -3423,7 +3433,7 @@ body.admin-bar .navbar {
   box-shadow: none !important;
   color: inherit !important;
 }
-.card-product .footer .stats .fa {
+.card-product .footer .stats i {
   top: 0;
   margin-bottom: 2px;
 }
@@ -4024,6 +4034,9 @@ table > tbody > tr:last-child,
 }
 .carousel .carousel-control {
   text-shadow: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .carousel .carousel-control.left {
   /**
@@ -4041,12 +4054,10 @@ table > tbody > tr:last-child,
    */
   right: 0;
 }
-.carousel .carousel-control .fa {
+.carousel .carousel-control i {
   display: inline-block;
   position: absolute;
   z-index: 5;
-  top: 50%;
-  bottom: 15px;
 }
 .carousel .buttons .btn-left + .btn-right {
   margin-left: 30px;
@@ -4149,7 +4160,7 @@ table > tbody > tr:last-child,
     float: none;
     margin: auto;
   }
-  .carousel .carousel-control .fa {
+  .carousel .carousel-control i {
     left: 50%;
   }
 }
@@ -4465,6 +4476,7 @@ body.product-card-style-plain .hestia-shop {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  z-index: 1;
 }
 
 .hestia-portfolio-modal {
@@ -4633,7 +4645,8 @@ body.product-card-style-plain .hestia-shop {
 }
 .pirate-forms-maps-custom span:after {
   content: '\f00c';
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
   left: 2px;
   top: 1px;
   color: transparent;
@@ -4924,7 +4937,7 @@ div.wpforms-container-full .wpforms-form textarea:focus {
 .hestia-team .footer a[href*="github.com"],
 .team .footer a[href*="github.com"],
 .footer-menu a[href*="github.com"] {
-  color: #333;
+  color: #000;
 }
 
 .hestia-team .footer a[href*="youtube.com"],
@@ -5245,19 +5258,23 @@ footer.footer.footer-black hr {
 .footer-big .footer-menu li a[href*="mailto:"]:before,
 .footer-big .footer-menu li a[href*="tel:"]:before {
   color: #fff;
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
 }
 .footer-big .footer-menu li a[href*="mailto:"]:hover:before,
 .footer-big .footer-menu li a[href*="tel:"]:hover:before {
   color: #999;
 }
 
+.footer-big .footer-menu li a[href*="tel:"]:before,
+.footer-big .footer-menu li a[href*="mailto:"]:before {
+  font-family: "Font Awesome 5 Free";
+}
 .footer-big .footer-menu li a[href*="mailto:"]:before {
   content: '\f0e0';
 }
-
 .footer-big .footer-menu li a[href*="tel:"]:before {
-  content: '\f095';
+  content: '\f879';
 }
 
 .footer-big .footer-menu li a[href*="facebook.com"] {
@@ -5266,10 +5283,14 @@ footer.footer.footer-black hr {
   padding: 10px;
 }
 .footer-big .footer-menu li a[href*="facebook.com"]:before {
-  content: "";
-  font-family: 'FontAwesome';
+  content: "";
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
   color: #3c4858;
   font-size: 16px;
+}
+.footer-big .footer-menu li a[href*="facebook.com"]:hover {
+  opacity: 1 !important;
 }
 .footer-big .footer-menu li a[href*="facebook.com"]:hover:before {
   color: #3b5998;
@@ -5286,9 +5307,13 @@ footer.footer.footer-black hr {
 }
 .footer-big .footer-menu li a[href*="twitter.com"]:before {
   content: "";
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
   color: #3c4858;
   font-size: 16px;
+}
+.footer-big .footer-menu li a[href*="twitter.com"]:hover {
+  opacity: 1 !important;
 }
 .footer-big .footer-menu li a[href*="twitter.com"]:hover:before {
   color: #55acee;
@@ -5305,9 +5330,13 @@ footer.footer.footer-black hr {
 }
 .footer-big .footer-menu li a[href*="pinterest.com"]:before {
   content: "";
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
   color: #3c4858;
   font-size: 16px;
+}
+.footer-big .footer-menu li a[href*="pinterest.com"]:hover {
+  opacity: 1 !important;
 }
 .footer-big .footer-menu li a[href*="pinterest.com"]:hover:before {
   color: #cc2127;
@@ -5324,9 +5353,13 @@ footer.footer.footer-black hr {
 }
 .footer-big .footer-menu li a[href*="google.com"]:before {
   content: "";
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
   color: #3c4858;
   font-size: 16px;
+}
+.footer-big .footer-menu li a[href*="google.com"]:hover {
+  opacity: 1 !important;
 }
 .footer-big .footer-menu li a[href*="google.com"]:hover:before {
   color: #dd4b39;
@@ -5343,9 +5376,13 @@ footer.footer.footer-black hr {
 }
 .footer-big .footer-menu li a[href*="linkedin.com"]:before {
   content: "";
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
   color: #3c4858;
   font-size: 16px;
+}
+.footer-big .footer-menu li a[href*="linkedin.com"]:hover {
+  opacity: 1 !important;
 }
 .footer-big .footer-menu li a[href*="linkedin.com"]:hover:before {
   color: #0976b4;
@@ -5362,9 +5399,13 @@ footer.footer.footer-black hr {
 }
 .footer-big .footer-menu li a[href*="dribbble.com"]:before {
   content: "";
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
   color: #3c4858;
   font-size: 16px;
+}
+.footer-big .footer-menu li a[href*="dribbble.com"]:hover {
+  opacity: 1 !important;
 }
 .footer-big .footer-menu li a[href*="dribbble.com"]:hover:before {
   color: #ea4c89;
@@ -5381,12 +5422,16 @@ footer.footer.footer-black hr {
 }
 .footer-big .footer-menu li a[href*="github.com"]:before {
   content: "";
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
   color: #3c4858;
   font-size: 16px;
 }
+.footer-big .footer-menu li a[href*="github.com"]:hover {
+  opacity: 1 !important;
+}
 .footer-big .footer-menu li a[href*="github.com"]:hover:before {
-  color: #333;
+  color: #000;
 }
 
 .footer-black .footer-menu li a[href*="github.com"]:before {
@@ -5400,9 +5445,13 @@ footer.footer.footer-black hr {
 }
 .footer-big .footer-menu li a[href*="youtube.com"]:before {
   content: "";
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
   color: #3c4858;
   font-size: 16px;
+}
+.footer-big .footer-menu li a[href*="youtube.com"]:hover {
+  opacity: 1 !important;
 }
 .footer-big .footer-menu li a[href*="youtube.com"]:hover:before {
   color: #e52d27;
@@ -5419,9 +5468,13 @@ footer.footer.footer-black hr {
 }
 .footer-big .footer-menu li a[href*="instagram.com"]:before {
   content: "";
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
   color: #3c4858;
   font-size: 16px;
+}
+.footer-big .footer-menu li a[href*="instagram.com"]:hover {
+  opacity: 1 !important;
 }
 .footer-big .footer-menu li a[href*="instagram.com"]:hover:before {
   color: #125688;
@@ -5438,9 +5491,13 @@ footer.footer.footer-black hr {
 }
 .footer-big .footer-menu li a[href*="reddit.com"]:before {
   content: "";
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
   color: #3c4858;
   font-size: 16px;
+}
+.footer-big .footer-menu li a[href*="reddit.com"]:hover {
+  opacity: 1 !important;
 }
 .footer-big .footer-menu li a[href*="reddit.com"]:hover:before {
   color: #ff4500;
@@ -5457,9 +5514,13 @@ footer.footer.footer-black hr {
 }
 .footer-big .footer-menu li a[href*="tumblr.com"]:before {
   content: "";
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
   color: #3c4858;
   font-size: 16px;
+}
+.footer-big .footer-menu li a[href*="tumblr.com"]:hover {
+  opacity: 1 !important;
 }
 .footer-big .footer-menu li a[href*="tumblr.com"]:hover:before {
   color: #35465c;
@@ -5476,9 +5537,13 @@ footer.footer.footer-black hr {
 }
 .footer-big .footer-menu li a[href*="behance.com"]:before {
   content: "";
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
   color: #3c4858;
   font-size: 16px;
+}
+.footer-big .footer-menu li a[href*="behance.com"]:hover {
+  opacity: 1 !important;
 }
 .footer-big .footer-menu li a[href*="behance.com"]:hover:before {
   color: #1769ff;
@@ -5495,9 +5560,13 @@ footer.footer.footer-black hr {
 }
 .footer-big .footer-menu li a[href*="snapchat.com"]:before {
   content: "";
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
   color: #3c4858;
   font-size: 16px;
+}
+.footer-big .footer-menu li a[href*="snapchat.com"]:hover {
+  opacity: 1 !important;
 }
 .footer-big .footer-menu li a[href*="snapchat.com"]:hover:before {
   color: #fffc00;
@@ -5514,9 +5583,13 @@ footer.footer.footer-black hr {
 }
 .footer-big .footer-menu li a[href*="deviantart.com"]:before {
   content: "";
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
   color: #3c4858;
   font-size: 16px;
+}
+.footer-big .footer-menu li a[href*="deviantart.com"]:hover {
+  opacity: 1 !important;
 }
 .footer-big .footer-menu li a[href*="deviantart.com"]:hover:before {
   color: #05cc47;
@@ -5533,9 +5606,13 @@ footer.footer.footer-black hr {
 }
 .footer-big .footer-menu li a[href*="vimeo.com"]:before {
   content: "";
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
   color: #3c4858;
   font-size: 16px;
+}
+.footer-big .footer-menu li a[href*="vimeo.com"]:hover {
+  opacity: 1 !important;
 }
 .footer-big .footer-menu li a[href*="vimeo.com"]:hover:before {
   color: #1ab7ea;
@@ -5600,6 +5677,10 @@ footer.footer.footer-black hr {
 .hestia-top-bar .col-md-12.pull-right .widget.widget_shopping_cart .cart_list {
   left: auto;
   right: 0;
+}
+.hestia-top-bar .col-md-6 li a:before,
+.hestia-top-bar .col-md-12 li a:before {
+  font-family: "Font Awesome 5 Brands";
 }
 .hestia-top-bar .widget {
   margin: 0 10px 0 0;
@@ -5674,7 +5755,8 @@ footer.footer.footer-black hr {
 .hestia-top-bar .widget.widget_search form.form-group:before, .hestia-top-bar .widget.widget_product_search form.form-group:before {
   color: #fff;
   content: "\f002";
-  font-family: 'Fontawesome';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
   position: absolute;
   left: 0;
   top: 0;
@@ -5691,7 +5773,8 @@ footer.footer.footer-black hr {
 .hestia-top-bar .widget.widget_shopping_cart:before {
   color: #fff;
   content: "\f07a";
-  font-family: 'Fontawesome';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
   position: absolute;
   left: 0;
   top: 0;
@@ -5784,7 +5867,8 @@ footer.footer.footer-black hr {
 .hestia-top-bar ul li a:before {
   background-color: transparent;
   position: static;
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
 }
 .hestia-top-bar ul li a:hover, .hestia-top-bar ul li a:focus {
   background-color: transparent;
@@ -5793,9 +5877,10 @@ footer.footer.footer-black hr {
 .hestia-top-bar ul li a[href*="tel:"]:before,
 .hestia-top-bar ul li a[href*="mailto:"]:before {
   margin-right: 7px;
+  font-family: "Font Awesome 5 Free";
 }
 .hestia-top-bar ul li a[href*="tel:"]:before {
-  content: '\f095';
+  content: '\f879';
 }
 .hestia-top-bar ul li a[href*="mailto:"]:before {
   content: '\f0e0';
@@ -5818,7 +5903,7 @@ footer.footer.footer-black hr {
   font-size: 0;
 }
 .hestia-top-bar li a[href*="facebook.com"]:before {
-  content: "";
+  content: "";
 }
 .hestia-top-bar li a[href*="facebook.com"]:hover:before {
   color: #3b5998;
@@ -5881,7 +5966,7 @@ footer.footer.footer-black hr {
   content: "";
 }
 .hestia-top-bar li a[href*="github.com"]:hover:before {
-  color: #333;
+  color: #000;
 }
 
 .hestia-top-bar li a[href*="youtube.com"] {
@@ -6787,6 +6872,9 @@ body:not(.home) .wrapper .content-area {
   .single.single-post .section-blog-info .card-profile .description {
     text-align: center;
   }
+  .single.single-post .section-blog-info .card-profile .card-avatar {
+    margin-bottom: 20px;
+  }
 
   .hestia-sidebar-open,
   .hestia-sidebar-close {
@@ -7159,7 +7247,8 @@ body:not(.home) .wrapper .content-area {
     color: #555;
     cursor: pointer;
     display: inline-block;
-    font-family: Fontawesome;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
     height: 30px;
     margin-left: 0;
     position: absolute;
@@ -7432,12 +7521,19 @@ body:not(.home) .wrapper .content-area {
     padding: 30px 0;
   }
 
+  .single-post .page-header.header-small,
+  .page .page-header.header-small,
+  .blog .page-header.header-small,
+  .archive .page-header.header-small,
+  .category .page-header.header-small {
+    min-height: 0;
+  }
   .single-post .page-header.header-small .container,
   .page .page-header.header-small .container,
   .blog .page-header.header-small .container,
   .archive .page-header.header-small .container,
   .category .page-header.header-small .container {
-    padding: 170px 15px 90px;
+    padding: 120px 15px 50px;
   }
   .single-post .page-header.header-small .container .hestia-title,
   .page .page-header.header-small .container .hestia-title,
@@ -7519,10 +7615,10 @@ body:not(.home) .wrapper .content-area {
     top: 0;
     transform: none;
   }
-  .carousel .carousel-control.left .fa {
+  .carousel .carousel-control.left i {
     left: 10px;
   }
-  .carousel .carousel-control.right .fa {
+  .carousel .carousel-control.right i {
     right: 10px;
   }
 }

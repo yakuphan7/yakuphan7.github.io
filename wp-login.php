@@ -9,24 +9,22 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>Giriş &lsaquo; Yakuphan Gökgöz &#8212; WordPress</title>
 	<link rel='dns-prefetch' href='//s.w.org' />
-<link rel='stylesheet' id='jquery.bxslider-css'  href='https://yakuphangokgoz.github.io/wp-content/plugins/testimonials-widget/includes/libraries/bxslider-4/dist/jquery.bxslider.css?ver=5.1.1' type='text/css' media='all' />
-<link rel='stylesheet' id='Axl_Testimonials_Widget-css'  href='https://yakuphangokgoz.github.io/wp-content/plugins/testimonials-widget/assets/css/testimonials-widget.css?ver=5.1.1' type='text/css' media='all' />
-<link rel='stylesheet' id='dashicons-css'  href='https://yakuphangokgoz.github.io/wp-includes/css/dashicons.min.css?ver=5.1.1' type='text/css' media='all' />
-<link rel='stylesheet' id='buttons-css'  href='https://yakuphangokgoz.github.io/wp-includes/css/buttons.min.css?ver=5.1.1' type='text/css' media='all' />
-<link rel='stylesheet' id='forms-css'  href='https://yakuphangokgoz.github.io/wp-admin/css/forms.min.css?ver=5.1.1' type='text/css' media='all' />
-<link rel='stylesheet' id='l10n-css'  href='https://yakuphangokgoz.github.io/wp-admin/css/l10n.min.css?ver=5.1.1' type='text/css' media='all' />
-<link rel='stylesheet' id='login-css'  href='https://yakuphangokgoz.github.io/wp-admin/css/login.min.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='https://yakuphangokgoz.github.io/wp-includes/css/dashicons.min.css?ver=5.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='buttons-css'  href='https://yakuphangokgoz.github.io/wp-includes/css/buttons.min.css?ver=5.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='forms-css'  href='https://yakuphangokgoz.github.io/wp-admin/css/forms.min.css?ver=5.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='l10n-css'  href='https://yakuphangokgoz.github.io/wp-admin/css/l10n.min.css?ver=5.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='login-css'  href='https://yakuphangokgoz.github.io/wp-admin/css/login.min.css?ver=5.2.3' type='text/css' media='all' />
 	<meta name='robots' content='noindex,noarchive' />
 	<meta name='referrer' content='strict-origin-when-cross-origin' />
 		<meta name="viewport" content="width=device-width" />
-	<link rel="icon" href="https://yakuphangokgoz.github.io/wp-content/uploads/2019/04/site_icon4.png" sizes="32x32" />
-<link rel="icon" href="https://yakuphangokgoz.github.io/wp-content/uploads/2019/04/site_icon4.png" sizes="192x192" />
-<link rel="apple-touch-icon-precomposed" href="https://yakuphangokgoz.github.io/wp-content/uploads/2019/04/site_icon4.png" />
-<meta name="msapplication-TileImage" content="https://yakuphangokgoz.github.io/wp-content/uploads/2019/04/site_icon4.png" />
+	<link rel="icon" href="https://yakuphangokgoz.github.io/wp-content/uploads/2019/09/site_icon4.png" sizes="32x32" />
+<link rel="icon" href="https://yakuphangokgoz.github.io/wp-content/uploads/2019/09/site_icon4.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://yakuphangokgoz.github.io/wp-content/uploads/2019/09/site_icon4.png" />
+<meta name="msapplication-TileImage" content="https://yakuphangokgoz.github.io/wp-content/uploads/2019/09/site_icon4.png" />
 	</head>
 	<body class="login login-action-login wp-core-ui  locale-tr-tr">
 		<div id="login">
-		<h1><a href="https://wordpress.org/" title="WordPress&#039;in desteğiyle">WordPress'in desteğiyle</a></h1>
+		<h1><a href="https://wordpress.org/">WordPress'in desteğiyle</a></h1>
 	
 	<form name="loginform" id="loginform" action="https://yakuphangokgoz.github.io/wp-login.php" method="post">
 	<p>
