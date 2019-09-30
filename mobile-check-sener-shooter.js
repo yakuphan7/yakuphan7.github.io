@@ -4,11 +4,11 @@ window.mobilecheck = function() {
 
 
 if(check){
-document.getElementById("sener-shooter").innerHTML = '<h5 style="text-align: center; color: #FFFFFF;"><a href="http://yakuphangokgoz.github.io/sener-shooter-mobil/" style="font-weight: bold; color: #FFFFFF;" rel="noopener noreferrer">Sener Shooter</a></h5>';
+document.getElementById("sener-shooter").href = "http://yakuphangokgoz.github.io/sener-shooter-mobil/";
 }
 
 else{
-document.getElementById("sener-shooter").innerHTML = '<h5 style="text-align: center; color: #FFFFFF;"><a href="http://yakuphangokgoz.github.io/sener-shooter/" style="font-weight: bold; color: #FFFFFF;" rel="noopener noreferrer">Sener Shooter</a></h5>';
+document.getElementById("sener-shooter").href = "http://yakuphangokgoz.github.io/sener-shooter/";
 }
   return check;
 };
