@@ -28,5 +28,5 @@ document.getElementById("sener-shooter").href = "http://yakuphangokgoz.github.io
   return check;
 };
 
-devicecheck()
+devicecheck();
 //window.mobilecheck();
