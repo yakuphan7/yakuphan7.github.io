@@ -1,13 +1,13 @@
-.zoom {
+.zoom1 {
   padding: 50px;
   background-color: green;
   transition: transform .2s; /* Animation */
-  width: 200px;
-  height: 200px;
+  width: 432px;
+  height: 150px;
   margin: 0 auto;
 }
 
-.zoom:hover {
+.zoom1:hover {
   transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
@@ -75,12 +75,28 @@
 		
 }
 
+.changable5 {
+	
+	//clear:both;
+		background: url('https://yakuphangokgoz.github.io/wp-content/uploads/2021/04/ataks-360x240.png') center;
+	width: 70%;
+	height: 150px;
+	padding: 50px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 30px;
+	border-radius: 5%;
+		
+}
+
 iframe{
 	width: 320px;
 	height: 240px;
 }
 
-	.changable-div{
+.changable-div{
 		margin: auto; 
 		margin-bottom: 100px;
 		border: 2px solid green;
@@ -88,8 +104,24 @@ iframe{
 		height: 240px;
 }
 
+
+
 @media only screen and (min-device-width: 1000px) {
 
+	.zoom1 {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  width: 432px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+	.zoom1:hover {
+		transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+	}
+
+	
 	.changable1 {
 	
 	clear:both;
@@ -154,6 +186,22 @@ iframe{
 		
 }
 	
+	.changable5 {
+	
+  //clear:both;
+	background: url('https://yakuphangokgoz.github.io/wp-content/uploads/2021/04/ataks-768x432.png') right;
+	width: 70%;
+	height: 150px;
+	padding: 50px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 30px;
+	border-radius: 5%;
+		
+}	
+	
 	iframe{
 	width: 640px;
 	height: 480px;
@@ -167,5 +215,6 @@ iframe{
 		height: 480px;
 		
 	}
+	
 	
 }
