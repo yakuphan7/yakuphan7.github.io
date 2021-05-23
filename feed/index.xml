@@ -20,7 +20,7 @@ xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.2.10</generator>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
 
 <image>
 	<url>https://yakuphangokgoz.github.io/wp-content/uploads/2019/09/site_icon4.png</url>
@@ -32,18 +32,22 @@ xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01
 	<item>
 		<title>Merhaba dünya!</title>
 		<link>https://yakuphangokgoz.github.io/2019/09/22/merhaba-dunya/</link>
-				<comments>https://yakuphangokgoz.github.io/2019/09/22/merhaba-dunya/#respond</comments>
-				<pubDate>Sun, 22 Sep 2019 18:18:07 +0000</pubDate>
+					<comments>https://yakuphangokgoz.github.io/2019/09/22/merhaba-dunya/#respond</comments>
+		
 		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Sun, 22 Sep 2019 18:18:07 +0000</pubDate>
 				<category><![CDATA[Genel]]></category>
-
 		<guid isPermaLink="false">https://yakuphangokgoz.github.io/?p=1</guid>
-				<description><![CDATA[Blog bölümüne hoşgeldiniz]]></description>
-								<content:encoded><![CDATA[
+
+					<description><![CDATA[Blog bölümüne hoşgeldiniz]]></description>
+										<content:encoded><![CDATA[
 <p>Blog bölümüne hoşgeldiniz</p>
 ]]></content:encoded>
-							<wfw:commentRss>https://yakuphangokgoz.github.io/2019/09/22/merhaba-dunya/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+					
+					<wfw:commentRss>https://yakuphangokgoz.github.io/2019/09/22/merhaba-dunya/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 	</channel>
 </rss>
